@@ -131,8 +131,8 @@ function PostApp() {
                                 <td>{post.userId}</td>
                                 <td>{post.title}</td>
                                 <td>{post.body}</td>
-                                <td><button variant="danger" onClick={() => deletePost(post.id)}>Delete</button>
-                                <button variant="secondary" onClick={() => editPost(post)}>Edit</button></td>
+                                <td><Button variant="danger" onClick={() => deletePost(post.id)}>Delete</Button>
+                                <Button variant="secondary" onClick={() => editPost(post)}>Edit</Button></td>
                             </tr>
                         )
                     })}
